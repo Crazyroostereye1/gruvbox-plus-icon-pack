@@ -13,7 +13,7 @@
       # Define the icon pack as a package
       packages.x86_64-linux.iconPack = pkgs.stdenv.mkDerivation {
         pname = "gruvbox-plus-icons";
-        version = "master";
+        version = "nix-flake";
 
 	src = ./Gruvbox-Plus-Dark;
 
