@@ -11,7 +11,7 @@
       pkgs = import nixpkgs { system = "x86_64-linux"; };
     in {
       # Define the icon pack as a package
-      packages.x86_64-linux.iconPack = pkgs.stdenv.mkDerivation {
+      packages.x86_64-linux.gruvbox-plus-icons = pkgs.stdenv.mkDerivation {
         pname = "gruvbox-plus-icons";
         version = "nix-flake";
 
