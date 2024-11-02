@@ -19,8 +19,8 @@
 
         # Set the installation directory for icons
         installPhase = ''
-          mkdir -p $out/share/icons
-          cp -r * $out/share/icons/
+          mkdir -p $out/share/icons/Gruvbox-Plus-Dark
+          cp -r * $out/share/icons/Gruvbox-Plus-Dark/
         '';
 
         meta = with pkgs.lib; {
